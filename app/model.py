@@ -4,7 +4,7 @@ def parse_contact(contact):
 
 
 class PhoneBook:
-    def __init__(self, data_path = 'data/contacts.txt', owner ='Самодуров Данил'):
+    def __init__(self, data_path = 'HW_8_Phonebook/data/contacts.txt', owner ='Самодуров Данил'):
         contacts = {}
         with open(data_path, 'r', encoding='utf8') as f:
             while True:
